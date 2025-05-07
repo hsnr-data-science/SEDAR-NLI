@@ -1,0 +1,9 @@
+{
+    "base_query": "Get all versions of the dataset 'Usernames_4'",
+    "variations": [
+        "Does 'Usernames_4' have any versions?",
+        "What versions are available for the dataset 'Usernames_4'?",
+        "List all the versions associated with 'Usernames_4'.",
+        "Are there multiple versions of 'Usernames_4'? If so, list them."
+    ]
+}

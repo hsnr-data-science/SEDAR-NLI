@@ -1,0 +1,3 @@
+QDRANT_URL = "http://localhost:6333"
+QDRANT_COLLECTION = "sedar-tools"
+EMBEDDING_BASE_URL = "http://192.168.220.150:11434"

@@ -1,0 +1,11 @@
+ID,Quantity,Value,Unit,Description
+1,Speed of Light,299792458,m/s,The speed at which light travels in a vacuum.  
+2,Gravitational Constant,6.67430e-11,m^3 kg^-1 s^-2,The constant of proportionality in Newton's law of gravitation.  
+3,Planck's Constant,6.62607015e-34,J s,The quantum of electromagnetic action that relates a photon's energy to its frequency.  
+4,Elementary Charge,1.602176634e-19,C,The electric charge carried by a single proton or the magnitude of the charge of a single electron.  
+5,Boltzmann Constant,1.380649e-23,J/K,The relation between the average kinetic energy of particles in a gas and the temperature of the gas.  
+6,Avogadro's Number,6.02214076e23,mol^-1,The number of constituent particles, usually atoms or molecules, that are contained in one mole of a substance.  
+7,Faraday Constant,96485.33212,C/mol,The magnitude of electric charge per mole of electrons.  
+8,Gas Constant,8.314462618,J/(mol K),The physical constant in the equation of state of an ideal gas.  
+9,Acceleration due to Gravity,9.80665,m/s^2,The standard acceleration due to gravity on Earth's surface.  
+10,Permittivity of Free Space,8.854187817e-12,F/m,The measure of resistance that is encountered when forming an electric field in a vacuum.  

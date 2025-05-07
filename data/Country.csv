@@ -1,0 +1,84 @@
+index;Country;area;GDPnominalUSDpM;PercapitaGDPUSD;Population;Government
+1;Albania;27,398;$11,800;$2,949.57;2,994,667;Parliamentary Democracy
+2;Algeria;2,381,740;$159,000;$3,948.01;34,994,937;Republic
+3;Angola;1,246,700;$85,810;$5,003.43;13,338,541;"Republic; Multiparty Presidential Regime"
+4;Argentina;2,736,690;$351,000;$8,662.99[56];41,769,726;Republic
+5;Australia;7,617,930;$1,220,000;$44,474.51;21,766,711;Federal Parliamentary Democracy
+6;Austria;82,444;$366,300;$45,598.77;8,217,280;Federal Republic
+7;Bahamas;10,07;$7,538;$21,547.17;313,312;Constitutional Monarchy with a parliamentary system of government
+8;Bangladesh;133,91;$100,100;$481.36;158,570,535;Parliamentary Democracy
+9;Belgium;30,278;$461,300;$43,648.01;10,431,477;Federal Parliamentary Democracy under Constitutional Monarchy
+10;Belize;22,806;$1,431;$4,327.67;321,115;Parliamentary Democracy
+11;Bhutan;47;$1,397;$561.89;708,427;Constitutional Monarchy
+12;Bolivia;1,084,390;$19,180;$1,446.41;10,118,683;Republic
+13;Bosnia and Herzegovina;51,197;$16,320;$3,246.78;4,622,163;Emerging Federal Democratic Republic
+14;Brazil;8,456,510;$2,024,000;$6,915.40;203,429,773;Federal Republic
+15;Bulgaria;110,55;$44,840;$5,409.09;7,093,635;Parliamentary Democracy
+16;Burma;657,74;$35,650;$285.60;53,999,804;Military Junta
+17;Canada;9,984,670;$1,334,140;$40,457;34,733,000;Federal Parliamentary Democracy
+18;Chile;748,8;$199,200;$10,058.50;16,888,760;republic
+19;China, People's Republic of;9,326,410;$5,745,000;$2,459.43;1,336,718,015;Communist State
+20;Croatia;56,414;$59,920;$11,430.32;4,483,804;presidential/parliamentary democracy
+21;Cuba;110,86;$57,490;$4,000.34;11,087,330?;Communist state
+22;Cyprus;9,24;$22,750;$27,014.79;1,120,489;republic[71]
+23;Denmark;42,394;$311,900;$57,039.71;5,529,888;constitutional monarchy
+24;Djibouti;22,98;$1,139;$1,694.29;757,074;republic
+25;Ecuador;276,84;$56,500;$3,211.76;15,007,343;republic
+26;Egypt;995,45;$127,900;$1,592.08;81,713,520;republic
+27;El Salvador;20,72;$21,800;$2,931.75;6,071,774;republic
+28;Finland;304,473;$238,000;$46,769.47;5,259,250;republic
+29;France;640,053[76];$2,555,000;$35,240.62;65,102,719;republic
+30;Gambia, The;10;$1,040;$386.77;1,797,860;republic
+31;Germany;349,223;$3,306,000;$40,315.05;81,471,834;federal parliamentary republic
+32;Greece;130,8;$302,000;$29,384.60;10,760,136;parliamentary republic
+33;Grenada;344;$645;$6,557.67;108,419;parliamentary democracy
+34;Hungary;92,34;$132,300;$13,901.01;9,976,062;parliamentary democracy
+35;India;2,973,190;$1,099,000;$972.68;1,147,995,904;federal republic
+36;Indonesia;1,826,440;$695,100;$1,844.53;245,613,043;republic
+37;Iran;1,636,000;$337,900;$4,497.11;77,891,220;theocratic republic
+38;Israel;20,33;$201,300;$25,191.86;7,473,052;parliamentary democracy
+39;Jamaica;10,831;$13,740;$4,032.18;2,868,380;constitutional parliamentary democracy
+40;Japan;374,744;$5,391,000;$34,402.26;126,475,664;constitutional monarchy with a parliamentary government
+41;Jordan;91,971;$27,130;$2,644.89;6,508,271;constitutional monarchy
+42;Korea, North;120,538[85];$28,000[85];$1,800.00[85];24,457,492[85];Communist state one-man dictatorship[85]
+43;Korea, South;98,19;$986,300;$19,514.81;48,754,657;republic
+44;Kuwait;17,82;$117,300;$44,421.22;2,595,628;constitutional emirate
+45;Lebanon;10,23;$39,150;$6,276.90;4,143,101;Sources differ[89]
+46;Libya;1,759,540;$77,910;$9,451.85;6,597,960;Caretaker government as of October 2011[update][90]
+47;Lithuania;65,300[91];$35,730;$10,725.96;3,535,547;parliamentary democracy
+48;Luxembourg;2,586;$52,430;$104,451.69;503,302;constitutional monarchy
+49;Macedonia, Republic of;24,856;$9,170;$3,646.55;2,077,328;parliamentary democracy
+50;Malaysia;328,55;$219,000;$7,513.71;28,728,607;constitutional monarchy
+51;Maldives;300;$1,433;$2,842.58;394,999;republic
+52;Malta;316;$7,801;$18,460.73;408,333;republic
+53;Mexico;1,923,040;$1,004,000;$8,218.88;113,724,226;federal republic
+54;Moldova;33,371;$5,357;$978.36;4,314,377;republic
+55;Nepal;143,181;$15,110;$333.09;29,391,883;democratic republic
+56;Netherlands;33,883;$770,300;$46,389.35;16,847,007;constitutional monarchy
+57;New Zealand;268,021;$138,000;$31,124.18;4,290,347;parliamentary democracy
+58;Norway;307,442;$413,500;$84,595;4,691,849;constitutional monarchy
+59;Pakistan;778,72;$174,800;$872.88;187,342,721;federal republic
+60;Philippines;298,17;$188,700;$1,582.17;101,833,938;republic
+61;Poland;304,459;$470,000;$10,911.71;38,441,588;republic
+62;Qatar;11,437;$126,500;$74,688.97;848,016;emirate
+63;Romania;230,34;$158,400;$7,451.95;21,904,551;republic
+64;Russia;16,995,800;$1,290,000;$9,124.49;140,702,096;federation
+65;Rwanda;24,948;$5,693;$335.10;10,186,063;"republic; presidential"
+66;Saudi Arabia;2,149,690;$434,400;$13,622.68;26,131,703;monarchy
+67;Seychelles;455;$919;$8,669.64;89,188;republic
+68;Singapore;682.7;$233,900;$35,427.12;4,740,737;parliamentary republic
+69;Slovenia;20,151;$46,440;$22,933.99;2,000,092;parliamentary republic
+70;South Africa;1,219,912;$354,400;$6,423.04;49,004,031;republic
+71;Spain;499,542;$1,375,000;$35,576.37;46,754,784;parliamentary monarchy
+72;Swaziland;17,203;$3,165;$2,591.20;1,370,424;monarchy
+73;Switzerland;39,77;$522,400;$56,111.06;7,639,961;a confederation only in name, legally and structurally a federal republic
+74;Syria;184,05;$59,630;$1,954.98;19,747,586;republic under an authoritarian military-dominated regime
+75;Taiwan (Republic of China) [102];32,26;$427,000;$16,768.11;23,071,779;multiparty democracy
+76;Thailand;511,77;$312,600;$3,776.0;66,720,153;constitutional monarchy
+77;Tonga;718;$301;$1,873.06;105,916;constitutional monarchy
+78;Trinidad and Tobago;5,128;$21,200;$19,590.99;1,227,505;parliamentary democracy
+79;Turkey;770,76;$729,100;$9,322.83;78,785,548;republican parliamentary democracy
+80;United Kingdom;241,59;$2,259,000;$45,626.38;62,698,362;constitutional monarchy and Commonwealth realm
+81;United States;9,161,923;$14,620,000;$45,958.70;313,232,044;federal republic
+82;Vanuatu;12,2;$721;$2,146.52;224,564;parliamentary republic
+83;Venezuela;882,05;$285,200;$9,084.09;27,635,743;federal republic

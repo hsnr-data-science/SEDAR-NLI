@@ -1,0 +1,9 @@
+ID,Quantity,Value,Unit,Description
+1,Magnetic Constant (Permeability of Free Space),1.25663706212e-6,H/m,The measure of the amount of resistance encountered when forming a magnetic field in a classical vacuum.  
+2,Stefan-Boltzmann Constant,5.670374419e-8,W/(m^2 K^4),The constant of proportionality in the Stefan-Boltzmann law, relating the total energy radiated per unit surface area of a black body to the fourth power of its temperature.  
+3,Electron Mass,9.10938356e-31,kg,The mass of an electron at rest.  
+4,Proton Mass,1.67262192369e-27,kg,The mass of a proton at rest.  
+5,Neutron Mass,1.67492749804e-27,kg,The mass of a neutron at rest.  
+6,Bohr Radius,5.29177210903e-11,m,The average distance between the nucleus and the electron in a hydrogen atom in its ground state.
+9,Vacuum Expectation Value (Higgs Field),246.22,GeV,The value of the Higgs field in its ground state, which gives mass to elementary particles.  
+10,Atomic Mass Unit,1.66053906660e-27,kg,One twelfth of the mass of an unbound carbon-12 atom, at rest and in its ground state.

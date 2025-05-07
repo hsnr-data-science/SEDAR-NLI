@@ -1,0 +1,9 @@
+{
+    "base_query": "Create an automl notebook to predict the Scores based on the other features on the 'Student Scores' dataset. Use AutoGluon. Use the existing experiment named 'First Experiment' for this.",
+    "variations": [
+        "Use the dataset 'Student_Scores' and create an AutoML run on it to predict the label 'Scores' based on the other features using linear regression. Use the existing experiment named 'First Experiment'.",
+        "Develop an AutoML notebook utilizing AutoGluon to forecast Scores from the features in the 'Student Scores' dataset, referencing 'First Experiment'.",
+        "Construct a notebook with AutoGluon that implements AutoML techniques to anticipate Scores from the 'Student Scores' dataset, leveraging the 'First Experiment'.",
+        "Please create an AutoML notebook with AutoGluon to analyze the 'Student Scores' dataset and predict the Scores, using the framework of the 'First Experiment'."
+    ]
+}

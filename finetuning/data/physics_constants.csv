@@ -1,0 +1,21 @@
+ID,Constant_Name,Symbol,Value,Unit,Application
+1,Speed of Light,c,299792458,m/s,Used in the theory of relativity and electromagnetic waves.  
+2,Gravitational Constant,G,6.67430e-11,m^3 kg^-1 s^-2,Used in Newton's law of universal gravitation.  
+3,Planck's Constant,h,6.62607015e-34,J s,Used in quantum mechanics.  
+4,Elementary Charge,e,1.602176634e-19,C,The charge of a proton or electron.  
+5,Boltzmann Constant,k_B,1.380649e-23,J/K,Relates the average kinetic energy of particles in a gas with the temperature.  
+6,Avogadro's Number,N_A,6.02214076e23,mol^-1,Number of atoms or molecules in one mole of a substance.  
+7,Faraday Constant,F,96485.33212,C/mol,The magnitude of electric charge per mole of electrons.  
+8,Gas Constant,R,8.314462618,J/(mol K),Used in the ideal gas law.  
+9,Acceleration due to Gravity,g,9.80665,m/s^2,Standard acceleration due to gravity on Earth's surface.  
+10,Permittivity of Free Space,ε_0,8.854187817e-12,F/m,Used in electromagnetism.  
+11,Permeability of Free Space,μ_0,4π × 10^-7,H/m,Used in electromagnetism.  
+12,Stefan-Boltzmann Constant,σ,5.670374419e-8,W/(m^2 K^4),Used in blackbody radiation.  
+13,Electron Mass,m_e,9.10938356e-31,kg,Mass of an electron.  
+14,Proton Mass,m_p,1.67262192369e-27,kg,Mass of a proton.  
+15,Neutron Mass,m_n,1.67492749804e-27,kg,Mass of a neutron.  
+16,Bohr Radius,a_0,5.29177210903e-11,m,Average distance between the nucleus and the electron in a hydrogen atom.  
+17,Rydberg Constant,R_∞,10973731.56816,m^-1,Used in atomic spectra.  
+18,Fine-Structure Constant,α,7.2973525693e-3,dimensionless,Characterizes the strength of electromagnetic interactions.  
+19,Hubble Constant,H_0,67.4,km/s/Mpc,Rate of expansion of the Universe.  
+20,Vacuum Expectation Value (Higgs Field),v,246.22,GeV,Value of the Higgs field in its ground state.

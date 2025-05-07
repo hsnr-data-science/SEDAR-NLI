@@ -1,0 +1,9 @@
+{
+    "base_query": "Upload the two datasets 'chemical_experiment_organic_properties.csv' and 'chemical_experiment_reaction_kinetics.csv' and run their ingestion concurrently",
+    "variations": [
+        "Simultaneously upload the files 'chemical_experiment_organic_properties.csv' and 'chemical_experiment_reaction_kinetics.csv' for ingestion.",
+        "I need you to upload the 'chemical_experiment_organic_properties.csv' and 'chemical_experiment_reaction_kinetics.csv' files and ingest them simultaneously.",
+        "Please upload and concurrently ingest the datasets named 'chemical_experiment_organic_properties.csv' and 'chemical_experiment_reaction_kinetics.csv'.",
+        "Could you upload 'chemical_experiment_organic_properties.csv' along with 'chemical_experiment_reaction_kinetics.csv' and process them at the same time?"
+    ]
+}

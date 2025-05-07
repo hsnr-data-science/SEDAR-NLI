@@ -1,0 +1,9 @@
+{
+    "base_query": "Update the title of the dataset named “Usernames_2” to “Usernames_Additonal_Infos”",
+    "variations": [
+        "Please change the name of the dataset from “Usernames_2” to “Usernames_Additional_Infos.”",
+        "Change the dataset name from “Usernames_2” to “Usernames_Additional_Infos.”",
+        "Please update the name of the dataset known as “Usernames_2” to “Usernames_Additional_Infos.”",
+        "Can you modify the name of the dataset from Usernames_2 to Usernames_Additional_Infos?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "base_query": "Show me the linked datasets of the dataset 'Join Test'",
+    "variations": [
+        "What are the datasets associated with 'Join Test'?",
+        "Can you provide the datasets that are connected to 'Join Test'?",
+        "I would like to see the datasets that relate to 'Join Test'.",
+        "Identify the datasets that link to 'Join Test'."
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "base_query": "What columns does the dataset “Chemical_Experiment_Materials” have?",
+    "variations": [
+        "Identify the attributes contained within the dataset titled “Chemical_Experiment_Materials”.",
+        "What are the different fields represented in the “Chemical_Experiment_Materials” dataset?",
+        "List the attributes associated with the dataset named “Chemical_Experiment_Materials”.",
+        "What fields are included in the dataset referred to as 'Chemical_Experiment_Materials'?"
+    ]
+}

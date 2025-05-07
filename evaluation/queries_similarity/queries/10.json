@@ -1,0 +1,9 @@
+{
+    "base_query": "Search for the dataset 'Chemical_Experiment_Enzymes' then use the search to find similar datasets",
+    "variations": [
+        "Given the dataset 'Chemical_Experiment_Enzymes', find all datasets related to it.",
+        "Find all datasets that are related to the 'Chemical_Experiment_Enzymes' dataset.",
+        "Search the database for 'Chemical_Experiment_Enzymes' and find datasets with related information.",
+        "Look up 'Chemical_Experiment_Enzymes' and find datasets that are related."
+    ]
+}

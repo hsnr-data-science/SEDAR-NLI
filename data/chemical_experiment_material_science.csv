@@ -1,0 +1,11 @@
+Sample_ID,Composition,Surface_Coating,Hardness_HV,Adhesion_MPa,Corrosion_Resistance_Hours,Thickness_µm,Processing_Temperature_Celsius,Notes
+S001,Fe-Cr-Ni,Zinc Oxide,450,12.5,500,10,350,"Uniform coating, no defects"
+S002,Al-Mg-Si,Polyurethane,300,10.2,300,15,200,"Minor surface irregularities"
+S003,Ti-Al-V,Ceramic,900,15.8,800,5,600,"High adhesion, suitable for aerospace"
+S004,Cu-Ni,Epoxy,250,8.9,200,20,180,"Visible discoloration after corrosion test"
+S005,Fe-Mn-C,Powder Coating,400,11.0,400,12,250,"Good overall performance"
+S006,Ni-Cr-Mo,PTFE,350,9.5,600,8,220,"Low friction, ideal for mechanical parts"
+S007,Al-Zn-Mg,Silanes,270,10.8,150,7,150,"Poor adhesion under wet conditions"
+S008,Fe-C-Mn,Boron Nitride,500,14.0,550,6,400,"Promising candidate for wear resistance"
+S009,Ti-Nb,Ceramic,950,16.5,900,4,700,"Excellent performance in extreme conditions"
+S010,Ni-Cr-W,Fluoropolymer,320,9.0,350,10,300,"Good chemical resistance, average adhesion"

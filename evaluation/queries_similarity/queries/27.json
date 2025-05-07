@@ -1,0 +1,9 @@
+{
+    "base_query": "What is the title of the current workspace?",
+    "variations": [
+        "Please provide the name of the workspace I'm currently in.",
+        "What do we call the workspace that is open right now?",
+        "Please tell me what the active workspace is named.",
+        "Identify the name of the workspace that is presently open."
+    ]
+}

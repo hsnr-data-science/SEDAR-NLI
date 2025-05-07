@@ -1,0 +1,9 @@
+{
+    "base_query": "What tags does the dataset 'Countries' have?",
+    "variations": [
+        "What are the annotations of the dataset 'Countries'?",
+        "How is the dataset 'Countries' annotated?",
+        "List the labels for the dataset named 'Countries'.",
+        "What labels are present in the dataset titled 'Countries'?"
+    ]
+}

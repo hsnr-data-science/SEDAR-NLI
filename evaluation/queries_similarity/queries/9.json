@@ -1,0 +1,9 @@
+{
+    "base_query": "Look at the dataset “Chemical_Experiment_Organic_Compounds” and add a description to it based on your understanding",
+    "variations": [
+        "Look into the 'Chemical_Experiment_Organic_Compounds' dataset and create a descriptive text based on your observations.",
+        "View the 'Chemical_Experiment_Organic_Compounds' dataset and add a descriptive summary based on your insights.",
+        "What insights can you provide about the 'Chemical_Experiment_Organic_Compounds' dataset? Please add an appropriate description.",
+        "Review the 'Chemical_Experiment_Organic_Compounds' dataset and create a descriptive overview based on your evaluation."
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "base_query": "How many rows does the dataset “Currencies” have?",
+    "variations": [
+        "Determine the total number of records in the 'Currencies' dataset.",
+        "Please provide the total number of entries within the 'Currencies' dataset.",
+        "How extensive is the 'Currencies' dataset in terms of row quantity?",
+        "Could you provide the total row figure for the 'Currencies' dataset?"
+    ]
+}

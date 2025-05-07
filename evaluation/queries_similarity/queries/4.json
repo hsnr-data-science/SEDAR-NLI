@@ -1,0 +1,9 @@
+{
+    "base_query": "Upload the file 'Country.csv' as a dataset and publish it. For this add a semantic annotation/tag corresponding to the 'Country' entity from the DBPedia Ontology.",
+    "variations": [
+        "Please handle the upload of 'Country.csv' as a dataset, ensure its publication, and don't forget to add a tag that relates to 'Country' in the DBPedia Ontology.",
+        "After uploading 'Country.csv' as a dataset, please make sure it is published and tagged appropriately with a 'Country' annotation from DBPedia Ontology.",
+        "I would like 'Country.csv' uploaded as a dataset, made public, and tagged with the 'Country' identifier from DBPedia Ontology.",
+        "Could you please upload the file 'Country.csv' as a dataset and make it public? Additionally, ensure to tag it with the 'Country' entity from the DBPedia Ontology."
+    ]
+}

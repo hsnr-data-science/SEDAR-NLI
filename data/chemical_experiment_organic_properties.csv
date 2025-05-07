@@ -1,0 +1,11 @@
+Compound_ID,Compound_Name,Formula,Molar_Mass_g_mol,Solubility_in_Water_g_L,Boiling_Point_Celsius,LogP,UV_Absorption_Max_nm,Reaction_with_HCl,Notes
+C001,Ethanol,C2H6O,46.07,Miscible,78.5,-0.31,205,No,"Common solvent, fully miscible with water"
+C002,Benzene,C6H6,78.11,0.18,80.1,2.13,254,No,"Aromatic hydrocarbon, carcinogenic"
+C003,Acetone,C3H6O,58.08,Miscible,56.2,-0.24,280,No,"Widely used as an organic solvent"
+C004,Acetic Acid,C2H4O2,60.05,Miscible,118.1,-0.17,210,No,"Corrosive, pungent odor"
+C005,Phenol,C6H6O,94.11,8.3,181.7,1.46,270,Yes,"Weak acid, turns pink with FeCl3"
+C006,Toluene,C7H8,92.14,0.52,110.6,2.73,260,No,"Good organic solvent, volatile"
+C007,Diethyl Ether,C4H10O,74.12,6.9,34.6,0.83,220,No,"Highly flammable, anesthetic properties"
+C008,Chloroform,CHCl3,119.37,8.1,61.2,1.97,245,No,"Nonpolar solvent, toxic"
+C009,Formaldehyde,CH2O,30.03,Miscible,-19.0,-0.8,235,Yes,"Preservative, reacts with amines"
+C010,Hexane,C6H14,86.18,0.009,69.0,3.5,N/A,No,"Nonpolar solvent, immiscible with water"

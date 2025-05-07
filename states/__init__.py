@@ -1,0 +1,1 @@
+from .consts import LAST_OUTPUT

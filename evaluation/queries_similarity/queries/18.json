@@ -1,0 +1,9 @@
+{
+    "base_query": "Create a semantic mapping based on the Countries and Capitals datasets. Label the columns using the DBPedia ontology.",
+    "variations": [
+        "Can you generate a semantic mapping of the Countries and Capitals datasets, ensuring the columns are labeled with the DBPedia ontology?",
+        "Using the DBPedia ontology, can you label the columns while creating a semantic mapping from the Countries and Capitals datasets?",
+        "Can you develop a semantic mapping of the Countries and Capitals datasets while incorporating the DBPedia ontology for column labeling?",
+        "I need a semantic mapping created from the Countries and Capitals datasets, with the columns appropriately labeled using the DBPedia ontology."
+    ]
+}

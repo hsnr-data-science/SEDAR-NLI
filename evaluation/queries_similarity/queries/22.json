@@ -1,0 +1,9 @@
+{
+    "base_query": "Get the semantic mapping named 'Countries_Currencies_Capitals' and join the data and query it to get all countries with their capitals and currencies.",
+    "variations": [
+        "Access the 'Countries_Currencies_Capitals' mapping and compile a query that provides the names of all countries together with their capitals and currencies.",
+        "Access the 'Countries_Currencies_Capitals' dataset and create a query that lists every country alongside its capital city and currency.",
+        "Use the 'Countries_Currencies_Capitals' mapping to generate a query that outputs every country paired with its currency and capital city.",
+        "Please obtain the 'Countries_Currencies_Capitals' dataset and run a query to retrieve a comprehensive list of countries with their respective capitals and currencies."
+    ]
+}

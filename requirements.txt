@@ -1,0 +1,15 @@
+chainlit
+langgraph
+langchain
+langchain-openai
+langchain-ollama
+qdrant-client
+langchain-qdrant
+langchain-azure-ai
+langchain-google-genai
+langchain-anthropic
+langchain-cohere
+websocket
+websocket-client
+langchain-experimental
+flashrank

@@ -1,0 +1,9 @@
+{
+    "base_query": "Get all datasets",
+    "variations": [
+        "What data do I have?",
+        "What datasets do I have?",
+        "What datasets are currently available to me?",
+        "Show me all the available data collections"
+    ]
+}

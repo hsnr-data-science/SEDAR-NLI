@@ -1,0 +1,274 @@
+ID;ENTITY;CURRENCY;ALPHABETICCODE;NUMERICCODE
+1;Afghanistan;Afghani;AFA;4
+2;Albania;Lek;ALL;8
+3;Algeria;Algerian Dinar;DZD;12
+4;American Samoa;US Dollar;USD;840
+5;Andorra;Spanish Peseta;ESP;724
+6;;French Franc;FRF;250
+7;;Andorran Peseta;ADP;20
+8;Angola;New Kwanza;AON;24
+9;;Kwanza Reajustado;AOR;982
+10;Anguilla;East Caribbean Dollar;XCD;951
+11;Antarctica;No universal currency;;
+12;Antigua and Barbuda;East Caribbean Dollar;XCD;951
+13;Argentina;Argentine Peso;ARS;32
+14;Armenia;Armenian Dram;AMD;51
+15;Aruba;Aruban Guilder;AWG;533
+16;Australia;Australian Dollar;AUD;36
+17;Austria;Schilling;ATS;40
+18;Azerbaijan;Azerbaijanian Manat;AZM;31
+19;Bahamas;Bahamian Dollar;BSD;44
+20;Bahrain;Bahraini Dinar;BHD;48
+21;Bangladesh;Taka;BDT;50
+22;Barbados;Barbados Dollar;BBD;52
+23;Belarus;Belarussian Ruble;BYR;974
+24;Belgium;Belgian Franc;BEF;56
+25;Belize;Belize Dollar;BZD;84
+26;Benin;CFA Franc BCEAO;XOF;952
+27;Bermuda;Bermudian Dollar;BMD;60
+28;Bhutan;Indian Rupee;INR;356
+29;;Ngultrum;BTN;64
+30;Bosnia and Herzegovina;Convertible Marks;BAM;977
+31;Botswana;Pula;BWP;72
+32;Bouvet Island;Norwegian Krone;NOK;578
+33;Brazil;Brazilian Real;BRL;986
+34;British Indian Ocean Territory;US Dollar;USD;840
+35;Brunei Darussalam;Brunei Dollar;BND;96
+36;Bulgaria;Lev;BGL;100
+37;;Bulgarian LEV;BGN;975
+38;Burkina Faso;CFA Franc BCEAO;XOF;952
+39;Burundi;Burundi Franc;BIF;108
+40;Cambodia;Riel;KHR;116
+41;Cameroon;CFA Franc BEAC;XAF;950
+42;Canada;Canadian Dollar;CAD;124
+43;Cape Verde;Cape Verde Escudo;CVE;132
+44;Cayman Islands;Cayman Islands Dollar;KYD;136
+45;Central African Republic;CFA Franc BEAC;XAF;950
+46;Chad;CFA Franc BEAC;XAF;950
+47;Chile;Chilean Peso;CLP;152
+48;;Unidades de fomento;CLF;990
+49;China;Yuan Renminbi;CNY;156
+50;Christmas Island;Australian Dollar;AUD;36
+51;Cocos (Keeling) Islands;Australian Dollar;AUD;36
+52;Colombia;Colombian Peso;COP;170
+53;Comoros;Comoro Franc;KMF;174
+54;Congo;CFA Franc BEAC;XAF;950
+55;Congo, The Democratic Republic Of;Franc Congolais;CDF;976
+56;Cook Islands;New Zealand Dollar;NZD;554
+57;Costa Rica;Costa Rican Colon;CRC;188
+58;Cote D'ivoire;CFA Franc BCEAO;XOF;952
+59;Croatia;Kuna;HRK;191
+60;Cuba;Cuban Peso;CUP;192
+61;Cyprus;Cyprus Pound;CYP;196
+62;Czech Republic;Czech Koruna;CZK;203
+63;Denmark;Danish Krone;DKK;208
+64;Djibouti;Djibouti Franc;DJF;262
+65;Dominica;East Caribbean Dollar;XCD;951
+66;Dominican Republic;Dominican Peso;DOP;214
+67;East Timor;Timor Escudo;TPE;626
+68;;Rupiah;IDR;360
+69;Ecuador;Sucre;ECS;218
+70;;Unidad de Valor Constante (UVC);ECV;983
+71;Egypt;Egyptian Pound;EGP;818
+72;El Salvador;El Salvador Colon;SVC;222
+73;Equatorial Guinea;CFA Franc BEAC;XAF;950
+74;Estonia;Kroon;EEK;233
+75;Eritrea;Nakfa;ERN;232
+76;Ethiopia;Ethiopian Birr;ETB;230
+77;Faeroe Islands;Danish Krone;DKK;208
+78;Falkland Islands (Malvinas);Pound;FKP;238
+79;Fiji;Fiji Dollar;FJD;242
+80;Finland;Markka;FIM;246
+81;France;French Franc;FRF;250
+82;French Guiana;French Franc;FRF;250
+83;French Polynesia;CFP Franc;XPF;953
+84;French Southern Territories;French Franc;FRF;250
+85;Gabon;CFA Franc BEAC;XAF;950
+86;Gambia;Dalasi;GMD;270
+87;Georgia;Lari;GEL;981
+88;Germany;Deutsche Mark;DEM;276
+89;Ghana;Cedi;GHC;288
+90;Gibraltar;Gibraltar Pound;GIP;292
+91;Greece;Drachma;GRD;300
+92;Greenland;Danish Krone;DKK;208
+93;Grenada;East Caribbean Dollar;XCD;951
+94;Guadeloupe;French Franc;FRF;250
+95;Guam;US Dollar;USD;840
+96;Guatemala;Quetzal;GTQ;320
+97;Guinea;Guinea Franc;GNF;324
+98;Guinea-Bissau;Guinea-Bissau Peso;GWP;624
+99;;CFA Franc BCEAO;XOF;952
+100;Guyana;Guyana Dollar;GYD;328
+101;Haiti;Gourde;HTG;332
+102;;US Dollar;USD;840
+103;Heard and Mcdonald Islands;Australian Dollar;AUD;36
+104;Honduras;Lempira;HNL;340
+105;Hong Kong;Hong Kong Dollar;HKD;344
+106;Hungary;Forint;HUF;348
+107;Iceland;Iceland Krona;ISK;352
+108;India;Indian Rupee;INR;356
+109;Indonesia;Rupiah;IDR;360
+110;International Monetary Fund (Imf);SDR;XDR;960
+111;Iran (Islamic Republic Of);Iranian Rial;IRR;364
+112;Iraq;Iraqi Dinar;IQD;368
+113;Ireland;Irish Pound;IEP;372
+114;Israel;New Israeli Sheqel;ILS;376
+115;Italy;Italian Lira;ITL;380
+116;Jamaica;Jamaican Dollar;JMD;388
+117;Japan;Yen;JPY;392
+118;Jordan;Jordanian Dinar;JOD;400
+119;Kazakhstan;Tenge;KZT;398
+120;Kenya;Kenyan Shilling;KES;404
+121;Kiribati;Australian Dollar;AUD;36
+122;Korea, Democratic People's Republic Of;North Korean Won;KPW;408
+123;Korea, Republic Of;Won;KRW;410
+124;Kuwait;Kuwaiti Dinar;KWD;414
+125;Kyrgyzstan;Som;KGS;417
+126;Lao People's Democratic Republic;Kip;LAK;418
+127;Latvia;Latvian Lats;LVL;428
+128;Lebanon;Lebanese Pound;LBP;422
+129;Lesotho;Rand;ZAR;710
+130;;(financial Rand);ZAL;991
+131;;Loti;LSL;426
+132;Liberia;Liberian Dollar;LRD;430
+133;Libyan Arab Jamahiriya;Libyan Dinar;LYD;434
+134;Liechtenstein;Swiss Franc;CHF;756
+135;Lithuania;Lithuanian Litas;LTL;440
+136;Luxembourg;Luxembourg Franc;LUF;442
+137;Macau;Pataca;MOP;446
+138;Macedonia, The Former Yugoslav Republic Of;Denar;MKD;807
+139;Madagascar;Malagasy Franc;MGF;450
+140;Malawi;Kwacha;MWK;454
+141;Malaysia;Malaysian Ringgit;MYR;458
+142;Maldives;Rufiyaa;MVR;462
+143;Mali;CFA Franc BCEAO;XOF;952
+144;Malta;Maltese Lira;MTL;470
+145;Marshall Islands;US Dollar;USD;840
+146;Martinique;French Franc;FRF;250
+147;Mauritania;Ouguiya;MRO;478
+148;Mauritius;Mauritius Rupee;MUR;480
+149;Mexico;Mexican Peso;MXN;484
+150;;Mexican Unidad de Inversion (UDI);MXV;979
+151;Micronesia;US Dollar;USD;840
+152;Moldova, Republic Of;Moldovan Leu;MDL;498
+153;Monaco;French Franc;FRF;250
+154;Mongolia;Tugrik;MNT;496
+155;Montserrat;East Caribbean Dollar;XCD;951
+156;Morocco;Moroccan Dirham;MAD;504
+157;Mozambique;Metical;MZM;508
+158;Myanmar;Kyat;MMK;104
+159;Namibia;Rand;ZAR;710
+160;;Namibia Dollar;NAD;516
+161;Nauru;Australian Dollar;AUD;36
+162;Nepal;Nepalese Rupee;NPR;524
+163;Netherlands;Netherlands Guilder;NLG;528
+164;Netherlands Antilles;Antillian Guilder;ANG;532
+165;New Caledonia;CFP Franc;XPF;953
+166;New Zealand;New Zealand Dollar;NZD;554
+167;Nicaragua;Cordoba Oro;NIO;558
+168;Niger;CFA Franc BCEAO;XOF;952
+169;Nigeria;Naira;NGN;566
+170;Niue;New Zealand Dollar;NZD;554
+171;Norfolk Island;Australian Dollar;AUD;36
+172;Northern Mariana Islands;US Dollar;USD;840
+173;Norway;Norwegian Krone;NOK;578
+174;Oman;Rial Omani;OMR;512
+175;Pakistan;Pakistan Rupee;PKR;586
+176;Palau;US Dollar;USD;840
+177;Panama;Balboa;PAB;590
+178;;US Dollar;USD;840
+179;Papua New Guinea;Kina;PGK;598
+180;Paraguay;Guarani;PYG;600
+181;Peru;Nuevo Sol;PEN;604
+182;Philippines;Philippine Peso;PHP;608
+183;Pitcairn;New Zealand Dollar;NZD;554
+184;Poland;Zloty;PLN;985
+185;Portugal;Portuguese Escudo;PTE;620
+186;Puerto Rico;US Dollar;USD;840
+187;Qatar;Qatari Rial;QAR;634
+188;Reunion;French Franc;FRF;250
+189;Romania;Leu;ROL;642
+190;Russian Federation;Russian Ruble;RUR;810
+191;;Russian Ruble;RUB;643
+192;Rwanda;Rwanda Franc;RWF;646
+193;St Helena;St Helena Pound;SHP;654
+194;St Kitts - Nevis;East Caribbean Dollar;XCD;951
+195;Saint Lucia;East Caribbean Dollar;XCD;951
+196;St Pierre and Miquelon;French Franc;FRF;250
+197;Saint Vincent and The Grenadines;East Caribbean Dollar;XCD;951
+198;Samoa;Tala;WST;882
+199;San Marino;Italian Lira;ITL;380
+200;Sao Tome and Principe;Dobra;STD;678
+201;Saudi Arabia;Saudi Riyal;SAR;682
+202;Senegal;CFA Franc BCEAO;XOF;952
+203;Seychelles;Seychelles Rupee;SCR;690
+204;Sierra Leone;Leone;SLL;694
+205;Singapore;Singapore Dollar;SGD;702
+206;Slovakia;Slovak Koruna;SKK;703
+207;Slovenia;Tolar;SIT;705
+208;Solomon Islands;Solomon Islands Dollar;SBD;90
+209;Somalia;Somali Shilling;SOS;706
+210;South Africa;Rand;ZAR;710
+211;Spain;Spanish Peseta;ESP;724
+212;Sri Lanka;Sri Lanka Rupee;LKR;144
+213;Sudan;Sudanese Dinar;SDD;736
+214;Suriname;Surinam Guilder;SRG;740
+215;Svalbard and Jan Mayen Islands;Norwegian Krone;NOK;578
+216;Swaziland;Lilangeni;SZL;748
+217;Sweden;Swedish Krona;SEK;752
+218;Switzerland;Swiss Franc;CHF;756
+219;Syrian Arab Republic;Syrian Pound;SYP;760
+220;Taiwan, Province Of China;New Taiwan Dollar;TWD;901
+221;Tajikistan;Somoni;TJS;972
+222;Tajikistan (Old);Tajik Ruble (old);TJR;762
+223;Tanzania, United Republic Of;Tanzanian Shilling;TZS;834
+224;Thailand;Baht;THB;764
+225;Togo;CFA Franc BCEAO;XOF;952
+226;Tokelau;New Zealand Dollar;NZD;554
+227;Tonga;Pa'anga;TOP;776
+228;Trinidad and Tobago;Trinidad and Tobago Dollar;TTD;780
+229;Tunisia;Tunisian Dinar;TND;788
+230;Turkey;Turkish Lira;TRL;792
+231;Turkmenistan;Manat;TMM;795
+232;Turks and Caicos Islands;US Dollar;USD;840
+233;Tuvalu;Australian Dollar;AUD;36
+234;Uganda;Uganda Shilling;UGX;800
+235;Ukraine;Hryvnia;UAH;980
+236;United Arab Emirates;UAE Dirham;AED;784
+237;United Kingdom;Pound Sterling;GBP;826
+238;United States;US Dollar;USD;840
+239;;(Same day);USS;998
+240;;(Next day);USN;997
+241;United States Minor Outlaying Islands;US Dollar;USD;840
+242;Uruguay;Peso Uruguayo;UYU;858
+243;Uzbekistan;Uzbekistan Sum;UZS;860
+244;Vanuatu;Vatu;VUV;548
+245;Vatican City State (Holy See);Italian Lira;ITL;380
+246;Venezuela;Bolivar;VEB;862
+247;Vietnam;Dong;VND;704
+248;Virgin Islands (British);US Dollar;USD;840
+249;Virgin Islands (U.S.);US Dollar;USD;840
+250;Wallis and Futuna Islands;CFP Franc;XPF;953
+251;Western Sahara;Moroccan Dirham;MAD;504
+252;Yemen;Yemeni Rial;YER;886
+253;Yugoslavia;New Dinar;YUM;891
+254;Zaire;New Zaire;ZRN;180
+255;Zambia;Kwacha;ZMK;894
+256;Zimbabwe;Zimbabwe Dollar;ZWD;716
+257;;;;
+258;;Gold Bond Markets Units;XAU;959
+259;;Bond Markets Units;;
+260;;European Composite Unit (EURCO);XBA;955
+261;;European Monetary Unit (E.M.U.-6);XBB;956
+262;;European Unit of Account 9 (E.U.A.- 9);XBC;957
+263;;European Unit of Account 17 (E.U.A.- 17);XBD;958
+264;;Palladium;XPD;964
+265;;Platinum;XPT;962
+266;;Silver;XAG;961
+267;;;;
+268;;Special settlement currencies;;
+269;;UIC-Franc;XFU;
+270;;Gold-Franc;XFO;
+271;;Codes specifically reserved for testing purposes;XTS;963
+272;;The codes assigned for transactions where no currency is involved are:;XXX;999
+273;;Euro;EUR;978

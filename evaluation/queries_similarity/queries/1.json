@@ -1,0 +1,9 @@
+{
+    "base_query": "Create a dataset from the file 'Capitals.json'. Then ingest it.",
+    "variations": [
+        "Ingest the file 'Capitals.json' into the appropriate storage system and activate versioning.",
+        "Utilize 'Capitals.json' to build a dataset, and then proceed with the ingestion process.",
+        "Build a dataset utilizing 'Capitals.json' and follow it with an ingestion step.",
+        "Use 'Capitals.json' to assemble a dataset and then carry out the ingestion."
+    ]
+}

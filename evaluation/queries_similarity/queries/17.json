@@ -1,0 +1,9 @@
+{
+    "base_query": "Show me the datalake statistics",
+    "variations": [
+        "How many datasets, users, workspaces and ontologies are there?",
+        "Can you provide an overview of the datalake's metrics?",
+        "How many datasets, users, and workspaces exist in the datalake?",
+        "Show me the metrics and statistics of the datalake."
+    ]
+}

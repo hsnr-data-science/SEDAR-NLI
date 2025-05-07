@@ -1,0 +1,9 @@
+{
+    "base_query": "Create an ML notebook to perform binary classification based on the tabular data in the 'Sensor_Data' dataset to predict the target variable 'failure'. Use the existing 'First Experiment'",
+    "variations": [
+        "Generate a machine learning notebook focused on binary classification with the 'Sensor_Data' dataset to ascertain the 'failure' target, leveraging the previously conducted 'First Experiment'.",
+        "Design an ML notebook capable of binary classification with the 'Sensor_Data' dataset to predict the outcome 'failure', using the 'First Experiment' as a foundation.",
+        "I need an ML notebook that conducts binary classification using the 'Sensor_Data' dataset to determine the target 'failure', employing the existing 'First Experiment'.",
+        "Can you design a machine learning notebook to carry out binary classification using data from 'Sensor_Data' to predict 'failure', based on the 'First Experiment'?"
+    ]
+}

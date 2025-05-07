@@ -1,0 +1,9 @@
+{
+    "base_query": "Create a new ontology using the file “./data/foaf.rdf”",
+    "variations": [
+        "Develop a fresh ontology from the file located at './data/foaf.rdf'.",
+        "Please develop an ontology using the resource './data/foaf.rdf'.",
+        "Please initiate the creation of an ontology with the file './data/foaf.rdf'.",
+        "Formulate a new ontology leveraging the data in './data/foaf.rdf'."
+    ]
+}

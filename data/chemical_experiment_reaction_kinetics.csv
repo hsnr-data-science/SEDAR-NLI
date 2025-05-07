@@ -1,0 +1,11 @@
+Experiment_ID,Chemical_1,Chemical_2,Concentration_1_M,Concentration_2_M,Temperature_Celsius,pH,Reaction_Rate_M_s,Product_Yield_Percent,Notes
+E001,HCl,NaOH,0.1,0.1,25,7,0.05,99.8,"Neutralization reaction, exothermic"
+E002,H2O2,I-,0.01,0.002,30,6,0.0025,95.0,"Catalyzed by iodide ions"
+E003,CH3COOH,NaHCO3,0.5,0.5,20,4,0.001,98.2,"Effervescence observed"
+E004,K2Cr2O7,H2SO4,0.2,1.0,60,1,0.0035,89.5,"Oxidation reaction, orange to green color change"
+E005,CaCl2,Na2CO3,0.1,0.1,25,8,0.0008,92.3,"Precipitation of calcium carbonate"
+E006,NH3,HCl,0.1,0.1,22,9,0.015,98.0,"Ammonium chloride formation"
+E007,FeCl3,KSCN,0.05,0.05,20,2,0.0001,90.0,"Formation of red complex Fe(SCN)6-"
+E008,H2O2,KMnO4,0.01,0.001,40,2,0.005,88.7,"Decomposition of H2O2, oxygen evolution"
+E009,Na2S2O3,HCl,0.1,0.1,25,3,0.002,97.5,"Clock reaction observed"
+E010,NaOH,Ethanol,0.1,1.0,35,7,0.00005,85.6,"Base-catalyzed esterification"

@@ -1,0 +1,9 @@
+{
+    "base_query": "What is the description of the 'Chemical_Experiment_Reaction_Kinetics' dataset?",
+    "variations": [
+        "Provide a summary of the 'Chemical_Experiment_Reaction_Kinetics' dataset.",
+        "Summarize the 'Chemical_Experiment_Reaction_Kinetics' dataset.",
+        "Can you summarize the dataset 'Chemical_Experiment_Reaction_Kinetics'?",
+        "Summarize the 'Chemical_Experiment_Reaction_Kinetics' dataset for me."
+    ]
+}

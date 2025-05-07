@@ -1,0 +1,9 @@
+{
+    "base_query": "Create a dataset called 'Chemistry' based on the uploaded file 'chemical_experiment_enzymes.csv'",
+    "variations": [
+        "Upload 'chemical_experiment_enzymes.csv', name the dataset 'Chemistry'.",
+        "Please generate a dataset called 'Chemistry' from the uploaded 'chemical_experiment_enzymes.csv' file.",
+        "Set up a dataset entitled 'Chemistry' using the uploaded 'chemical_experiment_enzymes.csv' file.",
+        "Can you set up a dataset titled 'Chemistry' using the data from 'chemical_experiment_enzymes.csv' that I have uploaded?"
+    ]
+}

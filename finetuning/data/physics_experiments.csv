@@ -1,0 +1,11 @@
+ID,Experiment_Name,Year,Scientist,Description
+1,Double-Slit Experiment,1801,Thomas Young,Demonstrated the wave nature of light through the interference pattern created by light passing through two slits.  
+2,Michelson-Morley Experiment,1887,Albert A. Michelson and Edward W. Morley,An attempt to detect the presence of the "aether" which resulted in the conclusion that the speed of light is constant in all frames of reference.  
+3,Millikan Oil Drop Experiment,1909,Robert A. Millikan,Measured the charge of the electron by observing the motion of tiny oil droplets between two metal plates.  
+4,Cavendish Experiment,1797-1798,Henry Cavendish,Determined the value of the gravitational constant by measuring the force between lead spheres.  
+5,Photoelectric Effect Experiment,1905,Albert Einstein,Demonstrated that light can be thought of as particles (photons) and provided evidence for the quantum nature of light.  
+6,Galileo's Leaning Tower of Pisa Experiment,1589-1592,Galileo Galilei,Demonstrated that objects of different masses fall at the same rate in the absence of air resistance.  
+7,Geiger-Marsden Experiment,1909-1911,Hans Geiger and Ernest Marsden,Led to the discovery of the atomic nucleus by observing the scattering of alpha particles on a thin gold foil.  
+8,Stern-Gerlach Experiment,1922,Otto Stern and Walther Gerlach,Demonstrated the quantization of angular momentum by passing silver atoms through a magnetic field.  
+9,Franck-Hertz Experiment,1914,James Franck and Gustav Hertz,Provided evidence for the existence of quantized energy levels in atoms by observing electron collisions with mercury atoms.  
+10,Foucault Pendulum,1851,Léon Foucault,Demonstrated the rotation of the Earth through the precession of a swinging pendulum.  

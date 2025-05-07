@@ -1,0 +1,9 @@
+{
+    "base_query": "Create a semantic model to join the datasets Countries and Capitals. For this, predict the semantic labels for the columns based on the DBPedia ontology.",
+    "variations": [
+        "Craft a semantic model to connect the datasets Countries and Capitals, leveraging DBPedia ontology to forecast column labels.",
+        "Create a semantic model to integrate Countries and Capitals datasets, relying on DBPedia ontology to forecast column labels.",
+        "Form a semantic model to integrate Countries and Capitals datasets, employing DBPedia ontology to forecast column labels.",
+        "Build a semantic model to unify the Countries and Capitals datasets, leveraging DBPedia ontology for column label identification."
+    ]
+}

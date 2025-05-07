@@ -1,0 +1,9 @@
+{
+    "base_query": "List all users",
+    "variations": [
+        "What are the users in the current workspace?",
+        "Who are the users in this workspace?",
+        "Give me the names of all users",
+        "Display all the users present"
+    ]
+}

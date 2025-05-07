@@ -1,0 +1,9 @@
+{
+    "base_query": "How many versions does dataset 'Usernames_4' have? What are their differences?",
+    "variations": [
+        "Show me the number of versions for 'Usernames_4' and highlight their key differences.",
+        "How many updates has 'Usernames_4' had, and what changes were made?",
+        "Can you provide the count of versions for 'Usernames_4' and explain the differences among them?",
+        "Please tell me the number of different versions of 'Usernames_4' and describe their unique features."
+    ]
+}
