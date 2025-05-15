@@ -2,12 +2,6 @@ from pydantic import BaseModel, Field
 from typing import Optional
 from langchain_core.rate_limiters import BaseRateLimiter
 
-# These seem to work decently:
-# hermes3:70b
-# llama3.1:70b
-# qwen2.5:72b
-# qwen2:72b-instruct
-
 class ModelConfig(BaseModel):
     server: str = Field(..., description="The server hosting the model")
     model: str = Field(..., description="The model identifier or name")
