@@ -18,18 +18,25 @@ from models.config import ModelConfig, Servers, Models, Embeddings
 from states.custom_tools.search_datasets_state import get_initial_search_state
 from states.custom_tools.create_dataset_state import get_initial_create_dataset_state
 from states.custom_tools.ml_create_state import get_initial_ml_create_state
-from states.custom_tools.semantic_labeling_state import get_initial_semantic_labeling_state
+from states.custom_tools.semantic_labeling_state import (
+    get_initial_semantic_labeling_state,
+)
 from states.custom_tools.obda_query_state import get_initial_obda_query_state
 from cache.cacheable import CacheableRegistry
 from utils.utils import is_async_context
 
 custom_function_config = BaseGraphConfig(
     default_llm=ModelConfig(server=Servers.AZURE_OPENAI, model=Models.GPT_4O),
-    embedding_model=ModelConfig(server=Servers.OLLAMA_HSNR, model=Embeddings.NOMIC_EMBED_TEXT, embedding_size=768),
+    embedding_model=ModelConfig(
+        server=Servers.OLLAMA_HSNR,
+        model=Embeddings.NOMIC_EMBED_TEXT,
+        embedding_size=768,
+    ),
     full_doc_strings=False,
     prompt_compression=False,
-    human_confirmation=False
+    human_confirmation=False,
 )
+
 
 # We need to make sure the method has a different name than the original method in the Workspace class.
 def datasets_search(self, query: str, **kwargs: Optional[dict]):
@@ -43,7 +50,7 @@ def datasets_search(self, query: str, **kwargs: Optional[dict]):
         query (str): A typical query string for a text based search.
 
     Returns:
-        list[Dataset]: A list of Dataset instances representing each favorite dataset in the workspace. 
+        list[Dataset]: A list of Dataset instances representing each favorite dataset in the workspace.
         The content of each dataset can be accessed using the `.content` attribute.
 
     Raises:
@@ -63,15 +70,22 @@ def datasets_search(self, query: str, **kwargs: Optional[dict]):
     final_state = initial_state
     try:
         if is_async_context():
-            final_state = asyncio.get_running_loop().run_until_complete(workflow.ainvoke(initial_state, config=RunnableConfig(recursion_limit=6)))
+            final_state = asyncio.get_running_loop().run_until_complete(
+                workflow.ainvoke(
+                    initial_state, config=RunnableConfig(recursion_limit=6)
+                )
+            )
         else:
-            final_state = workflow.invoke(initial_state, config=RunnableConfig(recursion_limit=6))
+            final_state = workflow.invoke(
+                initial_state, config=RunnableConfig(recursion_limit=6)
+            )
     except GraphRecursionError as e:
         return final_state["results"]
     except Exception as e:
         raise ToolException(f"Error in datasets_search tool: {e}")
 
     return final_state["results"]
+
 
 # We need to make sure the method has a different name than the original method in the Workspace class.
 def dataset_create(self, user_query: str, filename: str, **kwargs: Optional[dict]):
@@ -96,14 +110,17 @@ def dataset_create(self, user_query: str, filename: str, **kwargs: Optional[dict
     initial_state = get_initial_create_dataset_state(user_query, filename)
     try:
         if is_async_context():
-            final_state = asyncio.get_running_loop().run_until_complete(workflow.ainvoke(initial_state))
+            final_state = asyncio.get_running_loop().run_until_complete(
+                workflow.ainvoke(initial_state)
+            )
         else:
             final_state = workflow.invoke(initial_state)
 
         return final_state["results"]
     except Exception as e:
         raise ToolException(f"Error in dataset_create tool: {e}")
-    
+
+
 # We need to make sure the method has a different name than the original method in the Workspace class.
 def create_ml_notebook(self, query: str, **kwargs: Optional[dict]):
     """
@@ -124,17 +141,27 @@ def create_ml_notebook(self, query: str, **kwargs: Optional[dict]):
     sedar_api = kwargs.get("sedar_api", None)
     initial_query = kwargs.get("initial_query", "")
 
-    graph = MLCreateGraph(config=custom_function_config, experiment_instance=self, sedar_api=sedar_api)
+    graph = MLCreateGraph(
+        config=custom_function_config, experiment_instance=self, sedar_api=sedar_api
+    )
     workflow = graph.compile_workflow()
     # graph.generate_graph_image(workflow, "ml_create_agent_graph.png")
-    initial_state = get_initial_ml_create_state(user_query=initial_query, query=query, object_cache=sedar_agent_object_cache)
+    initial_state = get_initial_ml_create_state(
+        user_query=initial_query, query=query, object_cache=sedar_agent_object_cache
+    )
 
     final_state = initial_state
     try:
         if is_async_context():
-            final_state = asyncio.get_running_loop().run_until_complete(workflow.ainvoke(initial_state, config=RunnableConfig(recursion_limit=5)))
+            final_state = asyncio.get_running_loop().run_until_complete(
+                workflow.ainvoke(
+                    initial_state, config=RunnableConfig(recursion_limit=5)
+                )
+            )
         else:
-            final_state = workflow.invoke(initial_state, config=RunnableConfig(recursion_limit=5))
+            final_state = workflow.invoke(
+                initial_state, config=RunnableConfig(recursion_limit=5)
+            )
 
     except GraphRecursionError as e:
         return final_state["results"]
@@ -142,6 +169,7 @@ def create_ml_notebook(self, query: str, **kwargs: Optional[dict]):
         raise ToolException(f"Error in create_ml_notebook tool: {e}")
 
     return final_state["results"]
+
 
 def label_modeling_attributes(self, ontology: Ontology, **kwargs: Optional[dict]):
     """
@@ -173,12 +201,15 @@ def label_modeling_attributes(self, ontology: Ontology, **kwargs: Optional[dict]
 
     try:
         if is_async_context():
-            asyncio.get_running_loop().run_until_complete(workflow.ainvoke(initial_state))
+            asyncio.get_running_loop().run_until_complete(
+                workflow.ainvoke(initial_state)
+            )
         else:
             workflow.invoke(initial_state)
         return True
     except Exception as e:
         raise ToolException(f"Error in label_modeling_attributes tool: {e}")
+
 
 def execute_sparql_query(self, query: str, **kwargs: Optional[dict]):
     """
@@ -189,9 +220,6 @@ def execute_sparql_query(self, query: str, **kwargs: Optional[dict]):
     Args:
         query (str): User query in natural language containing the details about the query to be created.
 
-    Returns:
-        TODO
-
     Raises:
         Exception: If the sparql query execution or generation fails.
     """
@@ -199,17 +227,29 @@ def execute_sparql_query(self, query: str, **kwargs: Optional[dict]):
     sedar_api = kwargs.get("sedar_api", None)
     initial_query = kwargs.get("initial_query", "")
 
-    graph = OBDAQueryGraph(config=custom_function_config, semantic_mapping_instance=self, sedar_api=sedar_api)
+    graph = OBDAQueryGraph(
+        config=custom_function_config,
+        semantic_mapping_instance=self,
+        sedar_api=sedar_api,
+    )
     workflow = graph.compile_workflow()
     # graph.generate_graph_image(workflow, "obda_query_agent_graph.png")
-    initial_state = get_initial_obda_query_state(user_query=initial_query, query=query, object_cache=sedar_agent_object_cache)
+    initial_state = get_initial_obda_query_state(
+        user_query=initial_query, query=query, object_cache=sedar_agent_object_cache
+    )
 
     final_state = initial_state
     try:
         if is_async_context():
-            final_state = asyncio.get_running_loop().run_until_complete(workflow.ainvoke(initial_state, config=RunnableConfig(recursion_limit=5)))
+            final_state = asyncio.get_running_loop().run_until_complete(
+                workflow.ainvoke(
+                    initial_state, config=RunnableConfig(recursion_limit=5)
+                )
+            )
         else:
-            final_state = workflow.invoke(initial_state, config=RunnableConfig(recursion_limit=5))
+            final_state = workflow.invoke(
+                initial_state, config=RunnableConfig(recursion_limit=5)
+            )
 
     except GraphRecursionError as e:
         return final_state["results"]
@@ -218,9 +258,28 @@ def execute_sparql_query(self, query: str, **kwargs: Optional[dict]):
 
     return final_state["results"]
 
+
 def register_methods():
-    CacheableRegistry.register_method(target_class=Workspace, method_name="datasets_search", method_func=datasets_search)
-    CacheableRegistry.register_method(target_class=Workspace, method_name="dataset_create", method_func=dataset_create)
-    CacheableRegistry.register_method(target_class=Experiment, method_name="create_ml_notebook", method_func=create_ml_notebook)
-    CacheableRegistry.register_method(target_class=SemanticModel, method_name="label_modeling_attributes", method_func=label_modeling_attributes)
-    CacheableRegistry.register_method(target_class=SemanticMapping, method_name="execute_sparql_query", method_func=execute_sparql_query)
+    CacheableRegistry.register_method(
+        target_class=Workspace,
+        method_name="datasets_search",
+        method_func=datasets_search,
+    )
+    CacheableRegistry.register_method(
+        target_class=Workspace, method_name="dataset_create", method_func=dataset_create
+    )
+    CacheableRegistry.register_method(
+        target_class=Experiment,
+        method_name="create_ml_notebook",
+        method_func=create_ml_notebook,
+    )
+    CacheableRegistry.register_method(
+        target_class=SemanticModel,
+        method_name="label_modeling_attributes",
+        method_func=label_modeling_attributes,
+    )
+    CacheableRegistry.register_method(
+        target_class=SemanticMapping,
+        method_name="execute_sparql_query",
+        method_func=execute_sparql_query,
+    )

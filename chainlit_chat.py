@@ -11,10 +11,19 @@ from main import setup
 
 if __name__ == "__main__":
     from chainlit.cli import run_chainlit
+
     run_chainlit(__file__)
 
+
 class ChatHandler:
-    WORKFLOW_SETTINGS_KEYS = ["server", "model", "human_confirmation", "prompt_compression", "temperature", "reasoning_effort"]
+    WORKFLOW_SETTINGS_KEYS = [
+        "server",
+        "model",
+        "human_confirmation",
+        "prompt_compression",
+        "temperature",
+        "reasoning_effort",
+    ]
     STATE_SETTINGS_KEYS = ["jwt", "workspaceId", "jupyterToken"]
     DEFAULT_SERVER = Servers.AZURE_OPENAI
     DEFAULT_MODEL = Models.O3_MINI
@@ -53,7 +62,7 @@ class ChatHandler:
         "next_action",
         "run_query",
         "should_try_again",
-        "_write"
+        "_write",
     ]
 
     @staticmethod
@@ -71,8 +80,11 @@ class ChatHandler:
 
     @staticmethod
     def get_message_file(message: cl.Message):
-        return next((element for element in message.elements if isinstance(element, cl.File)), None)
-    
+        return next(
+            (element for element in message.elements if isinstance(element, cl.File)),
+            None,
+        )
+
     @staticmethod
     def store_file(file, directory="./.files"):
         original_filename = file.name
@@ -83,22 +95,43 @@ class ChatHandler:
 
     @staticmethod
     def get_chainlit_settings_elements():
-        servers = [value for key, value in vars(Servers).items() if not key.startswith("__")]
-        models = [value for key, value in vars(Models).items() if not key.startswith("__")]
+        servers = [
+            value for key, value in vars(Servers).items() if not key.startswith("__")
+        ]
+        models = [
+            value for key, value in vars(Models).items() if not key.startswith("__")
+        ]
         reasoning_effort = ["low", "medium", "high"]
 
         server_initial_index = servers.index(ChatHandler.DEFAULT_SERVER)
         model_initial_index = models.index(ChatHandler.DEFAULT_MODEL)
 
         return [
-            Select(id="server", label="Server", values=servers, initial_index=server_initial_index),
-            Select(id="model", label="Model", values=models, initial_index=model_initial_index),
-            Select(id="reasoning_effort", label="Reasoning Effort", values=reasoning_effort, initial_index=0),
-            Slider(id="temperature", label="Temperature", min=0, max=2, step=0.1, initial=0),
+            Select(
+                id="server",
+                label="Server",
+                values=servers,
+                initial_index=server_initial_index,
+            ),
+            Select(
+                id="model",
+                label="Model",
+                values=models,
+                initial_index=model_initial_index,
+            ),
+            Select(
+                id="reasoning_effort",
+                label="Reasoning Effort",
+                values=reasoning_effort,
+                initial_index=0,
+            ),
+            Slider(
+                id="temperature", label="Temperature", min=0, max=2, step=0.1, initial=0
+            ),
             Switch(id="human_confirmation", label="Human Confirmation", initial=False),
-            Switch(id="prompt_compression", label="Prompt Compression", initial=False)
+            Switch(id="prompt_compression", label="Prompt Compression", initial=False),
         ]
-    
+
     @staticmethod
     def get_langgraph_workflow(user_session: UserSession):
         server = user_session.get("server")
@@ -109,25 +142,38 @@ class ChatHandler:
         reasoning_effort = user_session.get("reasoning_effort")
 
         return setup(
-            ModelConfig(server=server, model=model, temperature=temperature, reasoning_effort=reasoning_effort),
+            ModelConfig(
+                server=server,
+                model=model,
+                temperature=temperature,
+                reasoning_effort=reasoning_effort,
+            ),
             human_confirmation=human_confirmation,
-            prompt_compression=prompt_compression
+            prompt_compression=prompt_compression,
         )
-    
+
     @staticmethod
     def is_user_authenticated(user_session: UserSession):
-        return all(user_session.get(key) is not None for key in ChatHandler.STATE_SETTINGS_KEYS)
-    
+        return all(
+            user_session.get(key) is not None for key in ChatHandler.STATE_SETTINGS_KEYS
+        )
+
     @staticmethod
     def has_all_keys(user_session: UserSession):
-        return all(user_session.get(key) is not None for key in ChatHandler.WORKFLOW_SETTINGS_KEYS)
-    
+        return all(
+            user_session.get(key) is not None
+            for key in ChatHandler.WORKFLOW_SETTINGS_KEYS
+        )
+
 
 @cl.on_chat_start
 async def start():
     ChatHandler.cleanup_files()
-    settings = await cl.ChatSettings(ChatHandler.get_chainlit_settings_elements()).send()
+    settings = await cl.ChatSettings(
+        ChatHandler.get_chainlit_settings_elements()
+    ).send()
     await setup_agent(settings)
+
 
 @cl.on_settings_update
 async def setup_agent(settings):
@@ -148,19 +194,24 @@ async def setup_agent(settings):
 
     if not ChatHandler.is_user_authenticated(cl.user_session):
         raise Exception("Error: Not authenticated")
-    
+
     if not ChatHandler.has_all_keys(cl.user_session):
-        return # Wait for another settings update event
+        return  # Wait for another settings update event
 
     if not cl.user_session.get("workflow"):
-        cl.user_session.set("workflow", ChatHandler.get_langgraph_workflow(cl.user_session))
+        cl.user_session.set(
+            "workflow", ChatHandler.get_langgraph_workflow(cl.user_session)
+        )
 
     if not cl.user_session.get("state"):
-        cl.user_session.set("state", get_initial_state("", jwt, jupyter_token, workspace_id))
+        cl.user_session.set(
+            "state", get_initial_state("", jwt, jupyter_token, workspace_id)
+        )
+
 
 @cl.on_message
 async def on_message(message: cl.Message):
-    if (file := ChatHandler.get_message_file(message)):
+    if file := ChatHandler.get_message_file(message):
         ChatHandler.store_file(file)
 
     workflow = cl.user_session.get("workflow")
@@ -168,12 +219,16 @@ async def on_message(message: cl.Message):
     state = reset_state(state, message.content)
     config = {"configurable": {"thread_id": cl.context.session.id}}
     callback_handler = cl.LangchainCallbackHandler(
-        to_ignore=ChatHandler.LANGGRAPH_STEPS_TO_IGNORE # Filter out steps that shouldn't be shown in the UI
+        to_ignore=ChatHandler.LANGGRAPH_STEPS_TO_IGNORE  # Filter out steps that shouldn't be shown in the UI
     )
     final_answer = cl.Message(content="")
 
     try:
-        async for stream_type, stream_message in workflow.astream(state, stream_mode=["messages", "values"], config=RunnableConfig(callbacks=[callback_handler], **config)):
+        async for stream_type, stream_message in workflow.astream(
+            state,
+            stream_mode=["messages", "values"],
+            config=RunnableConfig(callbacks=[callback_handler], **config),
+        ):
             if stream_type == "messages":
                 msg, metadata = stream_message
                 if (
@@ -190,5 +245,3 @@ async def on_message(message: cl.Message):
         final_answer = cl.ErrorMessage(content=str(e))
     finally:
         await final_answer.send()
-
-# TODO: on_stop not working
