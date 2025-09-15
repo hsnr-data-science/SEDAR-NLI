@@ -3,7 +3,7 @@
 
 Natural Language Interface for the Semantic Data Lake SEDAR based on a multi-agent LLM system.
   
-This repository contains the code for our CIKM 2025 paper on a multi-agent natural language interface (NLI) for semantic data lakes. The system enables users to interact with the SEDAR data lake platform using plain language, making advanced data management, discovery, and analytics accessible to non-technical users.  
+This repository contains the code for our paper on a multi-agent natural language interface (NLI) for semantic data lakes. The system enables users to interact with the SEDAR data lake platform using plain language, making advanced data management, discovery, and analytics accessible to non-technical users.  
   
 Our approach integrates large language models (LLMs) in a modular, multi-agent architecture. By combining retrieval-augmented generation (RAG) and dynamic tool-calling, the system translates user queries into structured API calls to execute complex workflows over the data lake.  
   
