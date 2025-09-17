@@ -52,4 +52,8 @@ The repository includes code, datasets, and evaluation scripts.
 
 - [data/](data/): Sample data used for evaluation (e.g., CSVs, JSON files).
 
+### Evaluation Datasets
+
+- the evaluation_dataset.jsonl (.csv) contain the target traces exported from LangSmith used for the evaluation
+
 
